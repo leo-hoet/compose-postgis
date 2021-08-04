@@ -1,5 +1,5 @@
 # PostGis & PgAdmin4 powered by compose
-Forked from (compose-postgres)[https://github.com/khezen/compose-postgres]
+Forked from [compose-postgres](https://github.com/khezen/compose-postgres)
 
 This compose store postgres data and pgadmin data in new folders inside the root folder
 
