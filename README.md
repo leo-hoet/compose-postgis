@@ -1,6 +1,8 @@
-# Postgresql & PgAdmin powered by compose
+# PostGis & PgAdmin4 powered by compose
+Forked from (compose-postgres)[https://github.com/khezen/compose-postgres]
 
-
+This compose store postgres data and pgadmin data in new folders inside the root folder
+ 
 ## Requirements:
 * docker >= 17.12.0+
 * docker-compose
@@ -20,6 +22,15 @@ This Compose file contains the following environment variables:
 * `PGADMIN_DEFAULT_EMAIL` the default value is **pgadmin4@pgadmin.org**
 * `PGADMIN_DEFAULT_PASSWORD` the default value is **admin**
 
+You can create a `.env` file that store the value of enviorment variables like this:
+`
+POSTGRES_USER=yourUser
+POSTGRES_PASSWORD=yourPassword
+PGADMIN_DEFAULT_EMAIL=name@domain.com
+PGADMIN_DEFAULT_PASSWORD=password
+`
+
+
 ## Access to postgres: 
 * `localhost:5432`
 * **Username:** postgres (as a default)
@@ -29,9 +40,3 @@ This Compose file contains the following environment variables:
 * **URL:** `http://localhost:5050`
 * **Username:** pgadmin4@pgadmin.org (as a default)
 * **Password:** admin (as a default)
-
-## Add a new server in PgAdmin:
-* **Host name/address** `postgres`
-* **Port** `5432`
-* **Username** as `POSTGRES_USER`, by default: `postgres`
-* **Password** as `POSTGRES_PASSWORD`, by default `changeme`
