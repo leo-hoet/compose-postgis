@@ -23,12 +23,12 @@ This Compose file contains the following environment variables:
 * `PGADMIN_DEFAULT_PASSWORD` the default value is **admin**
 
 You can create a `.env` file that store the value of enviorment variables like this:
-`
+```
 POSTGRES_USER=yourUser
 POSTGRES_PASSWORD=yourPassword
 PGADMIN_DEFAULT_EMAIL=name@domain.com
 PGADMIN_DEFAULT_PASSWORD=password
-`
+```
 
 
 ## Access to postgres: 
