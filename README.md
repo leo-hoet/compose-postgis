@@ -2,14 +2,14 @@
 Forked from (compose-postgres)[https://github.com/khezen/compose-postgres]
 
 This compose store postgres data and pgadmin data in new folders inside the root folder
- 
+
 ## Requirements:
 * docker >= 17.12.0+
 * docker-compose
 
 ## Quick Start
 * Clone or download this repository
-* Go inside of directory,  `cd compose-postgres`
+* Go inside of directory,  `cd compose-postgis`
 * Run this command `docker-compose up -d`
 
 
