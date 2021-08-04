@@ -3,6 +3,8 @@ Forked from [compose-postgres](https://github.com/khezen/compose-postgres)
 
 This compose store postgres data and pgadmin data in new folders inside the root folder
 
+You may need to execute `sudo chown -R 5050:5050 pgadmin` inside the root forder so pgadmin can store its data.
+
 ## Requirements:
 * docker >= 17.12.0+
 * docker-compose
